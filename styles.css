@@ -261,14 +261,27 @@ li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backd
   position: relative;
   overflow: hidden;
   padding: 76px 0 90px;
+   min-height: 600px;
+
+    background-image: url("Untitled%20design%20%286%29.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
 }
 
 .hero-pattern{
   position: absolute;
+   inset: 0;
+   pointer-events:none;
   top: -60px; right: -80px;
   width: 420px; height: 420px;
   opacity: 0.5;
-  z-index: 0;
+  z-index: 1;
   background-image: radial-gradient(circle, var(--gold) 7px, transparent 7px),
                      radial-gradient(circle, var(--coral) 5px, transparent 5px);
   background-size: 46px 46px, 46px 46px;
@@ -276,10 +289,20 @@ li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backd
   -webkit-mask-image: radial-gradient(circle, black 55%, transparent 78%);
   mask-image: radial-gradient(circle, black 55%, transparent 78%);
 }
+/* Dark overlay */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.50);
+
+    z-index: 1;
+}
+
 
 .hero .container{
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: grid;
   grid-template-columns: minmax(0, 640px);
 }
