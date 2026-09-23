@@ -106,13 +106,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   border-radius: 50px;
   background: #D94F70;
   color: white !important;
+  border: 2px solid #D94F70;
   font-weight: 600;
   text-decoration: none;
   margin-left: 8px;
 }
 
 .btn-signin:hover {
-  background: #c74363;
+  background: transparent;
+  color: #D94F70 !important;
+  border-color: #D94F70;
 }
 .logo-mark{
   width: 30px; height: 30px;
