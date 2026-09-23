@@ -102,7 +102,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 .btn-signin {
   display: inline-block;
-  padding: 10px 24px;
+  padding: 8px 35px;
   border-radius: 50px;
   background: #D94F70;
   color: white !important;
@@ -110,6 +110,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   font-weight: 600;
   text-decoration: none;
   margin-left: 8px;
+  line-height: 1.2;
 }
 
 .btn-signin:hover {
