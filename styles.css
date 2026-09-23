@@ -106,7 +106,17 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   background: conic-gradient(from 200deg, var(--gold), var(--coral), var(--teal), var(--gold));
   flex-shrink: 0;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
+.logo-image {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
 .main-nav{
   display: flex;
   gap: 28px;
