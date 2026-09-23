@@ -100,7 +100,20 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   align-items: center;
   gap: 10px;
 }
+.btn-signin {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #D94F70;
+  color: white !important;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 8px;
+}
 
+.btn-signin:hover {
+  background: #c74363;
+}
 .logo-mark{
   width: 30px; height: 30px;
   border-radius: 50%;
