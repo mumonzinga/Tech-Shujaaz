@@ -114,8 +114,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 .logo-image {
-  width: 400px;
-  height: 400px;
+  width: 250px;
+  height: 250px;
   object-fit: contain;
 }
 .main-nav{
