@@ -316,15 +316,22 @@ li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backd
   color: var(--teal);
   background: var(--sage);
   border-radius: 999px;
-  padding: 6px 16px;
+  padding: 8px 14px;
   margin-bottom: 22px;
+     border-radius: 50px;
+
 }
 
 .hero p.lead{
   font-size: 1.15rem;
-  color: var(--ink-soft);
+  color: #ffffff;
   margin-bottom: 2em;
 }
+.hero h1 {
+  color: #ffffff;
+}
+
+
 
 .hero-ctas{
   display: flex;
