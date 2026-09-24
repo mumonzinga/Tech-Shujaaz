@@ -94,7 +94,7 @@ h1{font-size:clamp(1.5rem,3vw,2rem);margin:0 0 4px}
 .sub{color:var(--muted);margin:0 0 20px}
 .filters{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;gap:14px}
 .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
-label{font-size:.75rem;color:var(--muted);display:block;margin-bottom:4px}
+label{font-size:.75rem;color:var(--muted);display:block;margin-bottom:4px; color:#fff}
 select,input{width:100%;font:inherit;font-size:.9rem;padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
 .chips{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .chips span{font-size:.75rem;color:var(--muted);margin-right:2px}
@@ -118,7 +118,7 @@ select,input{width:100%;font:inherit;font-size:.9rem;padding:9px 10px;border-rad
 .box h2{margin:0;font-size:1.15rem}
 .box .info{color:var(--muted);font-size:.88rem;margin:0}
 .err{color:#e5484d;font-size:.82rem;min-height:1em;margin:0}
-.acts{display:flex;gap:10px;justify-content:flex-end}
+.acts{display:flex;gap:10px;justify-content:flex-end; color:#fff}
 .btn.alt{background:var(--line);color:var(--fg);margin:0}
 .box .btn{margin:0}
      }
