@@ -112,7 +112,7 @@ select,input{width:100%;font:inherit;font-size:.9rem;padding:9px 10px;border-rad
 .btn{margin-top:auto;align-self:flex-start;font:inherit;font-size:.85rem;font-weight:600;padding:8px 18px;border-radius:99px;border:0;background:var(--acc);color:var(--accfg);cursor:pointer}
 .btn:disabled{opacity:.6;cursor:default}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
-.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:20px;z-index:10}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:20px;z-index:10; color:#fff}
 .ov.on{display:flex}
 .box{background:var(--card);border-radius:18px;padding:22px;width:100%;max-width:420px;display:grid;gap:12px;max-height:100%;overflow:auto}
 .box h2{margin:0;font-size:1.15rem}
