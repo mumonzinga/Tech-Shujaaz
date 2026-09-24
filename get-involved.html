@@ -36,6 +36,7 @@
 
 <main>
 
+  <!--
   <section class="page-hero">
     <div class="container">
       <span class="kicker">Get involved</span>
@@ -93,7 +94,48 @@
       </div>
     </div>
   </section>
-
+-->
+<div id="ther">
+  <h1>Available Therapy Sessions</h1>
+<p class="sub">Find a session near you or online, then book your spot.</p>
+ 
+<div class="filters">
+<div class="row">
+<div><label for="q">Search location or session</label><input id="q" type="search" placeholder="e.g. clinic, grief, Nyali"></div>
+<div><label for="county">County</label><select id="county"></select></div>
+<div><label for="sub">Subcounty</label><select id="sub"></select></div>
+<div><label for="con">Constituency</label><select id="con"></select></div>
+</div>
+<div class="chips" data-g="mode"><span>Type</span>
+<button class="chip" data-v="all" aria-pressed="true">All</button>
+<button class="chip" data-v="online" aria-pressed="false">Online</button>
+<button class="chip" data-v="physical" aria-pressed="false">Physical</button>
+</div>
+<div class="chips" data-g="price"><span>Cost</span>
+<button class="chip" data-v="all" aria-pressed="true">All</button>
+<button class="chip" data-v="free" aria-pressed="false">Free</button>
+<button class="chip" data-v="paid" aria-pressed="false">Paid</button>
+</div>
+</div>
+ 
+<div class="bar"><span id="count"></span><button class="link" id="reset">Reset filters</button></div>
+<div class="list" id="list"></div>
+</main>
+ 
+<div class="ov" id="ov"><div class="box" role="dialog" aria-modal="true" aria-labelledby="mt">
+<h2 id="mt">Book session</h2>
+<p class="info" id="mi"></p>
+<div id="form" style="display:grid;gap:12px">
+<div><label for="nm">Full name</label><input id="nm" autocomplete="name"></div>
+<div><label for="ph">Phone number</label><input id="ph" type="tel" autocomplete="tel"></div>
+<div><label for="em">Email (optional)</label><input id="em" type="email" autocomplete="email"></div>
+<p class="err" id="err"></p>
+</div>
+<div class="acts"><button class="btn alt" id="cancel">Cancel</button><button class="btn" id="ok">Confirm booking</button></div>
+</div></div>
+ 
+<script src="therapy.js"></script>
+</div>
 </main>
 
 <footer class="site-footer">
