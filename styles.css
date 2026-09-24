@@ -218,7 +218,7 @@ li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backd
 
 .flyer{display:flex;flex-direction:column;height:100%;overflow:hidden;border-radius:20px;background:var(--bg);color:var(--fg);box-shadow:0 10px 30px rgba(0,0,0,.18)}
 
-.flyer-img{aspect-ratio:4/3;background-size:cover;background-position:center;position:relative}
+.flyer-img{aspect-ratio:3/4;background-size:cover;background-position:center;position:relative}
 .flyer-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,20,.1),rgba(8,10,20,.6))}
 
 .flyer-body{display:flex;padding:16px}
