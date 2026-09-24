@@ -121,6 +121,11 @@ select,input{width:100%;font:inherit;font-size:.9rem;padding:9px 10px;border-rad
 .acts{display:flex;gap:10px;justify-content:flex-end; color:#fff}
 .btn.alt{background:var(--line);color:var(--fg);margin:0}
 .box .btn{margin:0}
+   #mt{color:#fff}
+      #nm{color:#fff}
+   #ph{color:#fff}
+   #em{color:#fff}
+
      }
 #upcoming {
    :root{--bg:#f4f5f8;--fg:#14161c;--muted:#5b6070;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
