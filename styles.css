@@ -214,7 +214,14 @@ li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);backd
   .main-nav.open{ display: flex; }
   .main-nav a{ width: 100%; padding: 10px 0; }
 }
-
+.flyers{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:32px}
+.flyer{display:flex;flex-direction:column;height:100%;overflow:hidden;border-radius:20px;background:var(--bg);color:var(--fg);box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.flyer-img{aspect-ratio:4/3;background-size:cover;background-position:center;position:relative}
+.flyer-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,10,20,.1),rgba(8,10,20,.6))}
+.flyer-body{display:flex;flex-direction:column;gap:6px;padding:16px;flex:1}
+.flyer-body h3{margin:0;font-size:1.05rem}
+.flyer-body p{margin:0;color:var(--muted);font-size:.9rem}
+.flyer-body .btn{margin-top:auto;align-self:flex-start;background:var(--fg);color:var(--bg)}
 /* ---------------------------------- Buttons ---------------------------------- */
 
 .btn{
